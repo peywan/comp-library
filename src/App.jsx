@@ -1,16 +1,14 @@
 import './App.css'
-import Student from '../src/components/Student.jsx'
+import Buttons from '../src/components/Buttons.jsx'
 
 
 function App() {
 
   return (
     <>
-      <Student name="john" age={"30"} isStudent={true}/>
-      <Student name={"patrick"} age={"age"} isStudent={false}/>
-      <Student name={"squid ward"} age={50} isStudent={false}/>
-      <Student name={"Peywan"} age={25} isStudent={true}/>
-        <Student />
+        <h1>Mina komponenter</h1>
+        <h2>Buttons</h2>
+        <Buttons size={"small"} color={"red"} disabled={true}/>
     </>
   )
 }

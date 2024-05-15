@@ -1,20 +1,16 @@
-const Button = ({ size, color, disabled, children }) => {
+const Buttons = (size, color, disabled, children) => {
     const style = {
-        fontSize: size === 'large' ? '24px' : '16px',
+        fontSize: size === '20px' ? size : size,
         backgroundColor: color,
-        opacity: disabled ? 0.5 : 1,
-        padding: '10px 20px',
-        border: 'none',
-        borderRadius: '5px',
-        color: 'white',
-        cursor: disabled ? 'not-allowed' : 'pointer',
-    };
-
+        color: "white",
+        cursor: "pointer",
+    }
     return (
-        <button style={style} disabled={disabled}>
-            {children}
-        </button>
-    );
-};
-
-export default Button;
+        <div className="App">
+            <button disabled={disabled}>
+                {children}
+            </button>
+        </div>
+    )
+}
+export default Buttons

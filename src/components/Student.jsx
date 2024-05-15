@@ -7,7 +7,7 @@
 // not passed to a component from the parent component
 // Name: "guest"
 
-
+/*
 import propTypes from 'prop-types';
 
 function Student(props){
@@ -29,3 +29,4 @@ Student.propType = {
 }
 
 export default Student
+*/
