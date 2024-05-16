@@ -12,6 +12,8 @@ import {IoAlertCircle} from "react-icons/io5";
 import {IoMdWarning,} from "react-icons/io";
 import {AiFillCheckCircle} from "react-icons/ai";
 import {AiFillBell} from 'react-icons/ai';
+import { CiShare2 } from "react-icons/ci";
+
 
 
 function App() {
@@ -36,7 +38,7 @@ function App() {
             <Badge color="red" size="large" count={15} icon={AiFillBell}>Stor Badge</Badge>
 
             <h1>mina cards</h1>
-            <Card color={'color'} size={'small'}/>
+            <Card color={'color'} size={'small'} icon={CiShare2}/>
         </>
     );
 }
