@@ -6,8 +6,7 @@ const Alert = ({color, icon: Icon, children}) => {
         display: 'flex',
         alignItems: 'center',
         gap: '10px',
-        color: 'white',
-        textColor: 'black'
+        color: 'black',
     }
     return (
         <div style={styles}>
